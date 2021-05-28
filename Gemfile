@@ -11,6 +11,7 @@ gem 'puma', '~> 5.0'
 gem 'rails', '~> 6.1.3', '>= 6.1.3.2'
 gem 'rubocop', require: false
 gem 'sass-rails', '>= 6'
+gem 'sidekiq'
 gem 'turbolinks', '~> 5'
 gem 'webpacker', '~> 5.0'
 
