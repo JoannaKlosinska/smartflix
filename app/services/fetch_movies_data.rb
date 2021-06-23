@@ -1,17 +1,20 @@
 # frozen_string_literal: true
 
+require 'rest-client'
 class FetchMoviesData
-  include HTTParty
-  omdb_api_key = Rails.application.credentials.omdb[:api_key]
-  base_uri "http://www.omdbapi.com/?apikey=#{omdb_api_key}"
-
   def initialize(title:)
-    super()
     @title = title
   end
 
-  def call
-    self.class.get('&t', query: { t: title })
+  def fetch_movie
+    api_key = Rails.application.credentials.omdb[:api_key]
+    url = "http://www.omdbapi.com/?apikey=#{api_key}&t=#{title}"
+    response = RestClient.get(url)
+    movie_data = JSON.parse(response.body)
+    return unless movie_data['Response'] == 'True'
+
+    Movie.create(title: movie_data['Title'], year: movie_data['Year'], rated: movie_data['Rated'],
+                 released: movie_data['Released'], genre: movie_data['Genre'])
   end
 
   private
