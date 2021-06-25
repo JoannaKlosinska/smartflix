@@ -8,7 +8,7 @@ class MoviesController < ApplicationController
       render json: movie
     else
       CreateMovieWorker.perform_async(title)
-      render json: 'not_found'
+      render json: 'not found'
     end
   end
 
