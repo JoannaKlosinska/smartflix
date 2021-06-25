@@ -13,8 +13,7 @@ class FetchMoviesData
     movie_data = JSON.parse(response.body)
     return unless movie_data['Response'] == 'True'
 
-    Movie.create(title: movie_data['Title'], year: movie_data['Year'], rated: movie_data['Rated'],
-                 released: movie_data['Released'], genre: movie_data['Genre'])
+    Movie.create(title: movie_data['Title'], year: movie_data['Year'])
   end
 
   private
