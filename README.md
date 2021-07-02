@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Smartflix
 
-Things you may want to cover:
+Smart Academy project. <br>
+Technologies: Ruby 3.0, Rails 6.1, PostgreSQL. <br>
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Getting started
+To get started, clone the repo and then install the needed gems:
+```
+$ bundle install
+```
+Next, migrate the database:
+```
+$ rails db:migrate
+```
+You can run this app in a local server:
+```
+$ rails server
+```
+## Author
+Joanna Klosinska
