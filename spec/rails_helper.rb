@@ -66,9 +66,5 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
-  VCR.configure do |c|
-    c.cassette_library_dir = 'spec/vcr'
-    c.hook_into :webmock
-    c.configure_rspec_metadata!
-  end
+  Dir[Rails.root.join('spec', 'support', '**', '*.rb')].sort.each { |f| require f }
 end
