@@ -2,6 +2,7 @@
 
 require 'rest-client'
 class FetchMoviesData
+
   def initialize(title:)
     @title = title
   end
@@ -19,4 +20,5 @@ class FetchMoviesData
   private
 
   attr_reader :title
+
 end

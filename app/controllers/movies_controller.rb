@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class MoviesController < ApplicationController
+
   def show
     title = params[:title]
     movie = Movie.find_by(title: title)
@@ -16,4 +17,5 @@ class MoviesController < ApplicationController
     movies = Movie.all
     render json: movies
   end
+
 end

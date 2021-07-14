@@ -23,6 +23,7 @@ Bundler.require(*Rails.groups)
 
 module Smartflix
   class Application < Rails::Application
+
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
 
@@ -36,5 +37,6 @@ module Smartflix
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
   end
 end
