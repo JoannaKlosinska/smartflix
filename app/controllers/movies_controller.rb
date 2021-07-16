@@ -9,13 +9,13 @@ class MoviesController < ApplicationController
       render json: movie
     else
       CreateMovieWorker.perform_async(title)
-      render json: 'not found', status: :not_found
+      render json: 'not found, try again later', status: :not_found
     end
   end
 
-  def index
-    movies = Movie.all
-    render json: movies
-  end
+  # def index
+  #   movies = Movie.all
+  #   render json: movies
+  # end
 
 end

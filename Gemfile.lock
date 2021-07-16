@@ -81,6 +81,7 @@ GEM
       database_cleaner-core (~> 2.0.0)
     database_cleaner-core (2.0.1)
     diff-lcs (1.4.4)
+    docile (1.4.0)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     erubi (1.10.0)
@@ -98,6 +99,9 @@ GEM
     http-accept (1.7.0)
     http-cookie (1.0.4)
       domain_name (~> 0.5)
+    httparty (0.18.1)
+      mime-types (~> 3.0)
+      multi_xml (>= 0.5.2)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
     jbuilder (2.11.2)
@@ -118,6 +122,7 @@ GEM
     mini_mime (1.0.3)
     minitest (5.14.4)
     msgpack (1.4.2)
+    multi_xml (0.6.0)
     netrc (0.11.0)
     nio4r (2.5.7)
     nokogiri (1.11.7-x86_64-darwin)
@@ -232,6 +237,12 @@ GEM
       connection_pool (>= 2.2.2)
       rack (~> 2.0)
       redis (>= 4.2.0)
+    simplecov (0.21.2)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-html (0.12.3)
+    simplecov_json_formatter (0.1.3)
     spring (2.1.1)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
@@ -281,6 +292,7 @@ DEPENDENCIES
   factory_bot (~> 6.2)
   factory_bot_rails (~> 6.2)
   faker
+  httparty (~> 0.18.1)
   jbuilder (~> 2.7)
   listen (~> 3.3)
   pg (~> 1.1)
@@ -295,6 +307,7 @@ DEPENDENCIES
   rubocop-rspec
   sass-rails (>= 6)
   sidekiq
+  simplecov (~> 0.21.2)
   spring
   turbolinks (~> 5)
   tzinfo-data
