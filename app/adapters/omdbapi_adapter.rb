@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Omdbapi
+class OmdbapiAdapter
 
   include HTTParty
   base_uri 'omdbapi.com'

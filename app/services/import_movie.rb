@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class CreateMovie
+class ImportMovie
 
   def initialize(title)
     @title = title
@@ -15,7 +15,7 @@ class CreateMovie
   attr_reader :title
 
   def movie_data
-    @movie_data ||= Omdbapi.find(title)
+    @movie_data ||= OmdbapiAdapter.find(title)
   end
 
 end
