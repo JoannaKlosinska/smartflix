@@ -1,6 +1,25 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/joanna.klosinska/Desktop/learning/smartflix/app/adapters/omdbapi_adapter.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          4,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/joanna.klosinska/Desktop/learning/smartflix/app/models/movie.rb": {
         "lines": [
           null,
@@ -23,26 +42,80 @@
           null
         ]
       },
-      "/Users/joanna.klosinska/Desktop/learning/smartflix/app/adapters/omdbapi_adapter.rb": {
+      "/Users/joanna.klosinska/Desktop/learning/smartflix/app/controllers/movies_controller.rb": {
         "lines": [
           null,
           null,
-          0,
+          1,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
           null,
           0,
           0,
-          0,
           null,
-          0,
-          0,
-          0,
           null,
-          0,
           null,
-          0
-        ],
-        "branches": {
-        }
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/joanna.klosinska/Desktop/learning/smartflix/app/controllers/application_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/joanna.klosinska/Desktop/learning/smartflix/app/services/import_movie.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          3,
+          null,
+          null,
+          1,
+          3,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          6,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/joanna.klosinska/Desktop/learning/smartflix/app/workers/create_movie_worker.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
       },
       "/Users/joanna.klosinska/Desktop/learning/smartflix/app/channels/application_cable/channel.rb": {
         "lines": [
@@ -63,43 +136,6 @@
           0,
           0,
           0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/joanna.klosinska/Desktop/learning/smartflix/app/controllers/application_controller.rb": {
-        "lines": [
-          null,
-          null,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/joanna.klosinska/Desktop/learning/smartflix/app/controllers/movies_controller.rb": {
-        "lines": [
-          null,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           0
         ],
         "branches": {
@@ -154,33 +190,6 @@
         "branches": {
         }
       },
-      "/Users/joanna.klosinska/Desktop/learning/smartflix/app/services/import_movie.rb": {
-        "lines": [
-          null,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
-          0
-        ],
-        "branches": {
-        }
-      },
       "/Users/joanna.klosinska/Desktop/learning/smartflix/app/workers/create_fake_movie_worker.rb": {
         "lines": [
           null,
@@ -198,27 +207,8 @@
         ],
         "branches": {
         }
-      },
-      "/Users/joanna.klosinska/Desktop/learning/smartflix/app/workers/create_movie_worker.rb": {
-        "lines": [
-          null,
-          null,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0
-        ],
-        "branches": {
-        }
       }
     },
-    "timestamp": 1626940736
+    "timestamp": 1626945583
   }
 }

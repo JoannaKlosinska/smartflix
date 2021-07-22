@@ -8,9 +8,7 @@ RSpec.describe MoviesController, type: :request do
     end
 
     context 'when movie exists' do
-      before do
-        get('/movies/Batman')
-      end
+      before { get('/movies/Batman') }
 
       it 'returns status code :ok' do
         expect(response).to have_http_status(:ok)
@@ -25,9 +23,7 @@ RSpec.describe MoviesController, type: :request do
 
     # context 'when movie does not exist' do
 
-    #   before do
-    #     get('movies/Star Wars')
-    #   end
+    #   before { get('movies/Star Wars') }
 
     #   it 'returns status code 404' do
     #     expect(response).to have_http_status(:not_found)
