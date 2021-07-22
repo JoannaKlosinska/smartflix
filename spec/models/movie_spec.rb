@@ -3,13 +3,29 @@
 require 'rails_helper'
 
 RSpec.describe Movie, type: :model do
-  it 'is valid with correct attributes' do
-    first_movie = described_class.new(title: 'Star Wars')
-    expect(first_movie).to be_valid
+  subject { described_class.new(title: title) }
+
+  let(:title) { 'Star Wars' }
+
+  context 'with correct attributes' do
+    it 'is valid' do
+      expect(subject).to be_valid
+    end
   end
 
-  it 'is invalid wihout a title' do
-    second_movie = described_class.new(title: nil)
-    expect(second_movie).not_to be_valid
+  context 'without a title' do
+    let(:title) { '' }
+
+    it 'is invalid' do
+      expect(subject).not_to be_valid
+    end
+  end
+
+  context 'when title is not unique' do
+    before { described_class.create!(title: 'Star Wars') }
+
+    it 'is invalid' do
+      expect(subject).not_to be_valid
+    end
   end
 end

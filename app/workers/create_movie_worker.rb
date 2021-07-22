@@ -6,8 +6,8 @@ class CreateMovieWorker
   sidekiq_options queue: :movies, retry: false
 
   def perform(title)
-    new_movie = FetchMoviesData.new(title: title)
-    new_movie.fetch_movie
+    new_movie = ImportMovie.new(title)
+    new_movie.call
   end
 
 end

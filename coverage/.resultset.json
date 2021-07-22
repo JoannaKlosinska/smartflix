@@ -1,39 +1,6 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/joanna.klosinska/Desktop/learning/smartflix/app/controllers/movies_controller.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          null,
-          1,
-          2,
-          2,
-          2,
-          2,
-          null,
-          0,
-          0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/joanna.klosinska/Desktop/learning/smartflix/app/controllers/application_controller.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          null
-        ]
-      },
       "/Users/joanna.klosinska/Desktop/learning/smartflix/app/models/movie.rb": {
         "lines": [
           null,
@@ -96,6 +63,43 @@
           0,
           0,
           0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/joanna.klosinska/Desktop/learning/smartflix/app/controllers/application_controller.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/joanna.klosinska/Desktop/learning/smartflix/app/controllers/movies_controller.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           0
         ],
         "branches": {
@@ -215,6 +219,6 @@
         }
       }
     },
-    "timestamp": 1626853271
+    "timestamp": 1626940736
   }
 }
