@@ -25,10 +25,6 @@ RSpec.describe MoviesController, type: :request do
 
     #   before { get('movies/Star Wars') }
 
-    #   it 'returns status code 404' do
-    #     expect(response).to have_http_status(:not_found)
-    #   end
-
     #   it 'runs a worker' do
     #     expect(CreateMovieWorker).to receive(:perform_async)
     #   end

@@ -2,7 +2,7 @@
 
 FactoryBot.define do
   factory :movie do
-    title { 'Matrix' }
-    year { 1999 }
+    title { Faker::Movie.title }
+    year { Faker::Number.between(from: 1950, to: 2021) }
   end
 end
