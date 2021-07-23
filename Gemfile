@@ -8,6 +8,7 @@ ruby '3.0.1'
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'factory_bot', '~> 6.2'
 gem 'faker'
+gem 'httparty', '~> 0.18.1'
 gem 'jbuilder', '~> 2.7'
 gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
@@ -27,6 +28,7 @@ group :development, :test do
   gem 'pry-rails'
   gem 'rspec-rails'
   gem 'rubocop-rspec'
+  gem 'simplecov', '~> 0.21.2', require: false
   gem 'vcr', '~> 6.0'
   gem 'webmock', '~> 3.13'
 end

@@ -1,8 +1,10 @@
 # frozen_string_literal: true
 
-VCR.configure do |c|
-  c.cassette_library_dir = 'spec/vcr'
-  c.hook_into :webmock
-  c.configure_rspec_metadata!
-  c.ignore_localhost = true
+VCR.configure do |config|
+  config.cassette_library_dir = 'spec/cassettes'
+  config.hook_into :webmock
+  config.ignore_localhost = true
+  config.filter_sensitive_data('apikey') do
+    Rails.application.credentials.omdb[:api_key]
+  end
 end
