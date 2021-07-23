@@ -38,3 +38,6 @@ yarn-debug.log*
 /config/credentials/test.key
 
 /config/credentials/development.key
+
+.idea
+dump.rdb
