@@ -21,13 +21,15 @@ RSpec.describe MoviesController, type: :request do
       end
     end
 
-    # context 'when movie does not exist' do
+    context 'when movie does not exist' do
+      before do
+        expect(CreateMovieWorker).to receive(:perform_async).with('Star Wars')
+        get('/movies/Star%20Wars')
+      end
 
-    #   before { get('movies/Star Wars') }
-
-    #   it 'runs a worker' do
-    #     expect(CreateMovieWorker).to receive(:perform_async)
-    #   end
-    # end
+      it 'returns a status code 404 and runs a specific worker' do
+        expect(response).to have_http_status(:not_found)
+      end
+    end
   end
 end
