@@ -3,15 +3,16 @@
 require 'rails_helper'
 require 'sidekiq/testing'
 RSpec.describe CreateMovieWorker, type: :worker do
-  subject { described_class.perform_async('Batman') }
+  subject { described_class.perform_async(title) }
 
-  let(:service) { double(ImportMovie) }
+  let(:title) { 'Batman' }
 
   Sidekiq::Testing.inline!
 
   it 'runs import movie service' do
-    allow(ImportMovie).to receive(:new).with('Batman').and_return(service)
-    expect(ImportMovie.new('Batman')).to receive(:call)
+    service = double(ImportMovie)
+    allow(ImportMovie).to receive(:new).with(title).and_return(service)
+    expect(ImportMovie.new(title)).to receive(:call)
     subject
   end
 
