@@ -9,7 +9,7 @@ RSpec.describe ImportMovie do
 
     context 'with valid title' do
       it 'creates a new movie' do
-        VCR.use_cassette('omdbapi', record: :new_episodes) do
+        VCR.use_cassette('omdbapi_with_valid_title', record: :new_episodes) do
           expect { subject }.to change(Movie, :count).by(1)
         end
       end
