@@ -23,7 +23,7 @@ class ImportMovie
   end
 
   def print_error
-    time = Time.current
+    time = Time.zone.now
     Rails.logger.warn("#{movie_data['Error']} #{time.strftime('%k:%M')}, #{time.strftime('%d/%m/%Y')}")
   end
 
