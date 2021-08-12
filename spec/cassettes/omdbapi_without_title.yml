@@ -2500,4 +2500,354 @@ http_interactions:
       encoding: ASCII-8BIT
       string: '{"Response":"False","Error":"Incorrect IMDb ID."}'
   recorded_at: Sat, 07 Aug 2021 13:46:44 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 09 Aug 2021 14:57:30 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Mon, 09 Aug 2021 15:57:30 GMT
+      Last-Modified:
+      - Mon, 09 Aug 2021 14:57:30 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 67c1d6512936f2c0-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":"False","Error":"Incorrect IMDb ID."}'
+  recorded_at: Mon, 09 Aug 2021 14:57:30 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 09 Aug 2021 20:15:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Mon, 09 Aug 2021 21:15:18 GMT
+      Last-Modified:
+      - Mon, 09 Aug 2021 20:15:18 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 67c3a7dd7dc8cc83-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":"False","Error":"Incorrect IMDb ID."}'
+  recorded_at: Mon, 09 Aug 2021 20:15:18 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 09 Aug 2021 20:16:19 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Mon, 09 Aug 2021 21:16:19 GMT
+      Last-Modified:
+      - Mon, 09 Aug 2021 20:16:19 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 67c3a959a8be0046-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":"False","Error":"Incorrect IMDb ID."}'
+  recorded_at: Mon, 09 Aug 2021 20:16:19 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 11 Aug 2021 09:28:38 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Wed, 11 Aug 2021 10:28:38 GMT
+      Last-Modified:
+      - Wed, 11 Aug 2021 09:28:38 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 67d06f55baa2f2c8-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":"False","Error":"Incorrect IMDb ID."}'
+  recorded_at: Wed, 11 Aug 2021 09:28:38 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 11 Aug 2021 09:29:25 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Wed, 11 Aug 2021 10:29:25 GMT
+      Last-Modified:
+      - Wed, 11 Aug 2021 09:29:25 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 67d0707a282b5030-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":"False","Error":"Incorrect IMDb ID."}'
+  recorded_at: Wed, 11 Aug 2021 09:29:25 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 12 Aug 2021 08:06:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Thu, 12 Aug 2021 09:06:46 GMT
+      Last-Modified:
+      - Thu, 12 Aug 2021 08:06:46 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 67d834c94dfb5007-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":"False","Error":"Incorrect IMDb ID."}'
+  recorded_at: Thu, 12 Aug 2021 08:06:46 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 12 Aug 2021 08:08:13 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Thu, 12 Aug 2021 09:08:13 GMT
+      Last-Modified:
+      - Thu, 12 Aug 2021 08:08:13 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 67d836e86b62502a-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":"False","Error":"Incorrect IMDb ID."}'
+  recorded_at: Thu, 12 Aug 2021 08:08:13 GMT
 recorded_with: VCR 6.0.0
