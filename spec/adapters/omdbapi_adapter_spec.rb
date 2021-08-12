@@ -6,7 +6,7 @@ RSpec.describe OmdbapiAdapter do
     subject { described_class.find('Batman') }
 
     it 'returns status code 200' do
-      VCR.use_cassette('omdbapi', record: :new_episodes) do
+      VCR.use_cassette('omdbapi_with_valid_title', record: :new_episodes) do
         expect(subject.code).to eq(200)
       end
     end

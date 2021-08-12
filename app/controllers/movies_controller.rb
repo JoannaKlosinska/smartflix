@@ -5,6 +5,7 @@ class MoviesController < ApplicationController
   def show
     title = params[:title]
     movie = Movie.find_by(title: title)
+
     if movie
       render json: movie
     else
@@ -12,10 +13,5 @@ class MoviesController < ApplicationController
       render json: 'not found, try again later', status: :not_found
     end
   end
-
-  # def index
-  #   movies = Movie.all
-  #   render json: movies
-  # end
 
 end

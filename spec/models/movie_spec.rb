@@ -20,12 +20,4 @@ RSpec.describe Movie, type: :model do
       expect(subject).not_to be_valid
     end
   end
-
-  context 'when title is not unique' do
-    before { described_class.create!(title: 'Star Wars') }
-
-    it 'is invalid' do
-      expect(subject).not_to be_valid
-    end
-  end
 end
