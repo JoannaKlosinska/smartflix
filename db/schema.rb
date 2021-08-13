@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -12,14 +10,39 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20_210_625_140_839) do
-  # These are extensions that must be enabled in order to support this database
-  enable_extension 'plpgsql'
+ActiveRecord::Schema.define(version: 2021_08_13_133344) do
 
-  create_table 'movies', force: :cascade do |t|
-    t.string 'title'
-    t.datetime 'created_at', precision: 6, null: false
-    t.datetime 'updated_at', precision: 6, null: false
-    t.integer 'year'
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  create_table "movies", force: :cascade do |t|
+    t.string "title"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.integer "year"
+    t.string "rated"
+    t.string "released"
+    t.string "runtime"
+    t.string "genre"
+    t.string "director"
+    t.string "writer"
+    t.string "actors"
+    t.string "plot"
+    t.string "language"
+    t.string "country"
+    t.string "awards"
+    t.string "poster"
+    t.string "ratings"
+    t.string "metascore"
+    t.string "imdb_rating"
+    t.string "imdb_votes"
+    t.string "imdb_id"
+    t.string "type"
+    t.string "dvd"
+    t.string "box_office"
+    t.string "production"
+    t.string "website"
+    t.string "response"
   end
+
 end
