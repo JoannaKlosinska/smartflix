@@ -10,7 +10,7 @@ RSpec.describe CreateMovieWorker, type: :worker do
   Sidekiq::Testing.inline!
 
   it 'runs import movie service' do
-    service = double(ImportMovie)
+    service = instance_double(ImportMovie)
     allow(ImportMovie).to receive(:new).with(title).and_return(service)
     expect(ImportMovie.new(title)).to receive(:call)
     subject

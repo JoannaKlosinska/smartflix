@@ -19,12 +19,12 @@ class ImportMovie
   attr_reader :title
 
   def movie_data
-    @movie_data ||= OmdbapiAdapter.find(title.capitalize)
+    @movie_data ||= OmdbapiAdapter.find(title)
   end
 
   def print_error
     time = Time.zone.now
-    Rails.logger.warn("#{movie_data['Error']} #{time.strftime('%k:%M')}, #{time.strftime('%d/%m/%Y')}")
+    Rails.logger.warn("#{title} not found! #{time.strftime('%k:%M')}, #{time.strftime('%d/%m/%Y')}")
   end
 
 end
