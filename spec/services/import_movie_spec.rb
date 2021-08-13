@@ -23,7 +23,7 @@ RSpec.describe ImportMovie do
       let(:title) { '90081' }
 
       it 'raises an error' do
-        VCR.use_cassette('omdbapi_with_ivalid_title', record: :new_episodes) do
+        VCR.use_cassette('omdbapi_with_invalid_title', record: :new_episodes) do
           expect(Rails.logger).to receive(:warn).with('Movie not found! 12:00, 03/08/2020')
           subject
         end
