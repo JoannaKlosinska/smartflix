@@ -7,8 +7,8 @@ class ImportMovie
   end
 
   def call
-    if movie_data['Response'] == 'True'
-      Movie.create!(title: movie_data['Title'], year: movie_data['Year'])
+    if movie_attributes[:response] == 'True'
+      Movie.create!(movie_attributes)
     else
       print_error
     end
@@ -17,6 +17,16 @@ class ImportMovie
   private
 
   attr_reader :title
+
+  def movie_attributes
+    movie_attributes = {}
+    movie_data.each do |key, value|
+      next if key == 'Type'
+
+      movie_attributes[key.underscore.to_sym] = value
+    end
+    movie_attributes
+  end
 
   def movie_data
     @movie_data ||= OmdbapiAdapter.find(title)
