@@ -1121,4 +1121,1066 @@ http_interactions:
         Jul 2014","BoxOffice":"$251,348,343","Production":"Warner Brothers, Guber-Peters
         Company, PolyGram Filmed Entertainment","Website":"N/A","Response":"True"}'
   recorded_at: Fri, 13 Aug 2021 15:18:46 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=20d3e972&t=Batman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 Aug 2021 11:59:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Mon, 16 Aug 2021 12:59:41 GMT
+      Last-Modified:
+      - Mon, 16 Aug 2021 11:59:41 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 67fa7f794f37f29c-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Title":"Batman","Year":"1989","Rated":"PG-13","Released":"23 Jun
+        1989","Runtime":"126 min","Genre":"Action, Adventure","Director":"Tim Burton","Writer":"Bob
+        Kane, Sam Hamm, Warren Skaaren","Actors":"Michael Keaton, Jack Nicholson,
+        Kim Basinger","Plot":"The Dark Knight of Gotham City begins his war on crime
+        with his first major enemy being Jack Napier, a criminal who becomes the clownishly
+        homicidal Joker.","Language":"English, French, Spanish","Country":"United
+        States, United Kingdom","Awards":"Won 1 Oscar. 9 wins & 26 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg","Ratings":[{"Source":"Internet
+        Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"69/100"}],"Metascore":"69","imdbRating":"7.5","imdbVotes":"345,938","imdbID":"tt0096895","Type":"movie","DVD":"24
+        Jul 2014","BoxOffice":"$251,348,343","Production":"Warner Brothers, Guber-Peters
+        Company, PolyGram Filmed Entertainment","Website":"N/A","Response":"True"}'
+  recorded_at: Mon, 16 Aug 2021 11:59:41 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=20d3e972&t=Batman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 Aug 2021 11:59:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3599
+      Expires:
+      - Mon, 16 Aug 2021 12:59:41 GMT
+      Last-Modified:
+      - Mon, 16 Aug 2021 11:59:41 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 67fa7f7d2ed6501e-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Title":"Batman","Year":"1989","Rated":"PG-13","Released":"23 Jun
+        1989","Runtime":"126 min","Genre":"Action, Adventure","Director":"Tim Burton","Writer":"Bob
+        Kane, Sam Hamm, Warren Skaaren","Actors":"Michael Keaton, Jack Nicholson,
+        Kim Basinger","Plot":"The Dark Knight of Gotham City begins his war on crime
+        with his first major enemy being Jack Napier, a criminal who becomes the clownishly
+        homicidal Joker.","Language":"English, French, Spanish","Country":"United
+        States, United Kingdom","Awards":"Won 1 Oscar. 9 wins & 26 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg","Ratings":[{"Source":"Internet
+        Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"69/100"}],"Metascore":"69","imdbRating":"7.5","imdbVotes":"345,938","imdbID":"tt0096895","Type":"movie","DVD":"24
+        Jul 2014","BoxOffice":"$251,348,343","Production":"Warner Brothers, Guber-Peters
+        Company, PolyGram Filmed Entertainment","Website":"N/A","Response":"True"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=20d3e972&t=Batman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 Aug 2021 11:59:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Mon, 16 Aug 2021 12:59:42 GMT
+      Last-Modified:
+      - Mon, 16 Aug 2021 11:59:42 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 67fa7f826aee5019-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Title":"Batman","Year":"1989","Rated":"PG-13","Released":"23 Jun
+        1989","Runtime":"126 min","Genre":"Action, Adventure","Director":"Tim Burton","Writer":"Bob
+        Kane, Sam Hamm, Warren Skaaren","Actors":"Michael Keaton, Jack Nicholson,
+        Kim Basinger","Plot":"The Dark Knight of Gotham City begins his war on crime
+        with his first major enemy being Jack Napier, a criminal who becomes the clownishly
+        homicidal Joker.","Language":"English, French, Spanish","Country":"United
+        States, United Kingdom","Awards":"Won 1 Oscar. 9 wins & 26 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg","Ratings":[{"Source":"Internet
+        Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"69/100"}],"Metascore":"69","imdbRating":"7.5","imdbVotes":"345,938","imdbID":"tt0096895","Type":"movie","DVD":"24
+        Jul 2014","BoxOffice":"$251,348,343","Production":"Warner Brothers, Guber-Peters
+        Company, PolyGram Filmed Entertainment","Website":"N/A","Response":"True"}'
+  recorded_at: Mon, 16 Aug 2021 11:59:42 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=20d3e972&t=Batman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 27 Aug 2021 12:41:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Fri, 27 Aug 2021 13:41:16 GMT
+      Last-Modified:
+      - Fri, 27 Aug 2021 12:41:16 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 68555f870d4ef2d8-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Title":"Batman","Year":"1989","Rated":"PG-13","Released":"23 Jun
+        1989","Runtime":"126 min","Genre":"Action, Adventure","Director":"Tim Burton","Writer":"Bob
+        Kane, Sam Hamm, Warren Skaaren","Actors":"Michael Keaton, Jack Nicholson,
+        Kim Basinger","Plot":"The Dark Knight of Gotham City begins his war on crime
+        with his first major enemy being Jack Napier, a criminal who becomes the clownishly
+        homicidal Joker.","Language":"English, French, Spanish","Country":"United
+        States, United Kingdom","Awards":"Won 1 Oscar. 9 wins & 26 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg","Ratings":[{"Source":"Internet
+        Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"69/100"}],"Metascore":"69","imdbRating":"7.5","imdbVotes":"350,141","imdbID":"tt0096895","Type":"movie","DVD":"24
+        Jul 2014","BoxOffice":"$251,348,343","Production":"Warner Brothers, Guber-Peters
+        Company, PolyGram Filmed Entertainment","Website":"N/A","Response":"True"}'
+  recorded_at: Fri, 27 Aug 2021 12:41:16 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=20d3e972&t=Batman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 27 Aug 2021 12:41:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Fri, 27 Aug 2021 13:41:18 GMT
+      Last-Modified:
+      - Fri, 27 Aug 2021 12:41:18 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 68555f914f781636-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Title":"Batman","Year":"1989","Rated":"PG-13","Released":"23 Jun
+        1989","Runtime":"126 min","Genre":"Action, Adventure","Director":"Tim Burton","Writer":"Bob
+        Kane, Sam Hamm, Warren Skaaren","Actors":"Michael Keaton, Jack Nicholson,
+        Kim Basinger","Plot":"The Dark Knight of Gotham City begins his war on crime
+        with his first major enemy being Jack Napier, a criminal who becomes the clownishly
+        homicidal Joker.","Language":"English, French, Spanish","Country":"United
+        States, United Kingdom","Awards":"Won 1 Oscar. 9 wins & 26 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg","Ratings":[{"Source":"Internet
+        Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"69/100"}],"Metascore":"69","imdbRating":"7.5","imdbVotes":"350,141","imdbID":"tt0096895","Type":"movie","DVD":"24
+        Jul 2014","BoxOffice":"$251,348,343","Production":"Warner Brothers, Guber-Peters
+        Company, PolyGram Filmed Entertainment","Website":"N/A","Response":"True"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=20d3e972&t=Batman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 27 Aug 2021 12:41:19 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3599
+      Expires:
+      - Fri, 27 Aug 2021 13:41:18 GMT
+      Last-Modified:
+      - Fri, 27 Aug 2021 12:41:18 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 68555f967b2acc73-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Title":"Batman","Year":"1989","Rated":"PG-13","Released":"23 Jun
+        1989","Runtime":"126 min","Genre":"Action, Adventure","Director":"Tim Burton","Writer":"Bob
+        Kane, Sam Hamm, Warren Skaaren","Actors":"Michael Keaton, Jack Nicholson,
+        Kim Basinger","Plot":"The Dark Knight of Gotham City begins his war on crime
+        with his first major enemy being Jack Napier, a criminal who becomes the clownishly
+        homicidal Joker.","Language":"English, French, Spanish","Country":"United
+        States, United Kingdom","Awards":"Won 1 Oscar. 9 wins & 26 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg","Ratings":[{"Source":"Internet
+        Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"69/100"}],"Metascore":"69","imdbRating":"7.5","imdbVotes":"350,141","imdbID":"tt0096895","Type":"movie","DVD":"24
+        Jul 2014","BoxOffice":"$251,348,343","Production":"Warner Brothers, Guber-Peters
+        Company, PolyGram Filmed Entertainment","Website":"N/A","Response":"True"}'
+  recorded_at: Fri, 27 Aug 2021 12:41:19 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=20d3e972&t=Batman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 27 Aug 2021 12:43:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3486
+      Expires:
+      - Fri, 27 Aug 2021 13:41:18 GMT
+      Last-Modified:
+      - Fri, 27 Aug 2021 12:41:18 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 68556253fbf05018-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Title":"Batman","Year":"1989","Rated":"PG-13","Released":"23 Jun
+        1989","Runtime":"126 min","Genre":"Action, Adventure","Director":"Tim Burton","Writer":"Bob
+        Kane, Sam Hamm, Warren Skaaren","Actors":"Michael Keaton, Jack Nicholson,
+        Kim Basinger","Plot":"The Dark Knight of Gotham City begins his war on crime
+        with his first major enemy being Jack Napier, a criminal who becomes the clownishly
+        homicidal Joker.","Language":"English, French, Spanish","Country":"United
+        States, United Kingdom","Awards":"Won 1 Oscar. 9 wins & 26 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg","Ratings":[{"Source":"Internet
+        Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"69/100"}],"Metascore":"69","imdbRating":"7.5","imdbVotes":"350,141","imdbID":"tt0096895","Type":"movie","DVD":"24
+        Jul 2014","BoxOffice":"$251,348,343","Production":"Warner Brothers, Guber-Peters
+        Company, PolyGram Filmed Entertainment","Website":"N/A","Response":"True"}'
+  recorded_at: Fri, 27 Aug 2021 12:43:11 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=20d3e972&t=Batman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 27 Aug 2021 12:43:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3484
+      Expires:
+      - Fri, 27 Aug 2021 13:41:16 GMT
+      Last-Modified:
+      - Fri, 27 Aug 2021 12:41:16 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 68556259bc07ffd0-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Title":"Batman","Year":"1989","Rated":"PG-13","Released":"23 Jun
+        1989","Runtime":"126 min","Genre":"Action, Adventure","Director":"Tim Burton","Writer":"Bob
+        Kane, Sam Hamm, Warren Skaaren","Actors":"Michael Keaton, Jack Nicholson,
+        Kim Basinger","Plot":"The Dark Knight of Gotham City begins his war on crime
+        with his first major enemy being Jack Napier, a criminal who becomes the clownishly
+        homicidal Joker.","Language":"English, French, Spanish","Country":"United
+        States, United Kingdom","Awards":"Won 1 Oscar. 9 wins & 26 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg","Ratings":[{"Source":"Internet
+        Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"69/100"}],"Metascore":"69","imdbRating":"7.5","imdbVotes":"350,141","imdbID":"tt0096895","Type":"movie","DVD":"24
+        Jul 2014","BoxOffice":"$251,348,343","Production":"Warner Brothers, Guber-Peters
+        Company, PolyGram Filmed Entertainment","Website":"N/A","Response":"True"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=20d3e972&t=Batman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 27 Aug 2021 12:43:13 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3485
+      Expires:
+      - Fri, 27 Aug 2021 13:41:18 GMT
+      Last-Modified:
+      - Fri, 27 Aug 2021 12:41:18 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6855625dcfc7cc93-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Title":"Batman","Year":"1989","Rated":"PG-13","Released":"23 Jun
+        1989","Runtime":"126 min","Genre":"Action, Adventure","Director":"Tim Burton","Writer":"Bob
+        Kane, Sam Hamm, Warren Skaaren","Actors":"Michael Keaton, Jack Nicholson,
+        Kim Basinger","Plot":"The Dark Knight of Gotham City begins his war on crime
+        with his first major enemy being Jack Napier, a criminal who becomes the clownishly
+        homicidal Joker.","Language":"English, French, Spanish","Country":"United
+        States, United Kingdom","Awards":"Won 1 Oscar. 9 wins & 26 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg","Ratings":[{"Source":"Internet
+        Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"69/100"}],"Metascore":"69","imdbRating":"7.5","imdbVotes":"350,141","imdbID":"tt0096895","Type":"movie","DVD":"24
+        Jul 2014","BoxOffice":"$251,348,343","Production":"Warner Brothers, Guber-Peters
+        Company, PolyGram Filmed Entertainment","Website":"N/A","Response":"True"}'
+  recorded_at: Fri, 27 Aug 2021 12:43:13 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=20d3e972&t=Batman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 27 Aug 2021 12:54:07 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=2831
+      Expires:
+      - Fri, 27 Aug 2021 13:41:18 GMT
+      Last-Modified:
+      - Fri, 27 Aug 2021 12:41:18 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 68557256cbbf1642-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Title":"Batman","Year":"1989","Rated":"PG-13","Released":"23 Jun
+        1989","Runtime":"126 min","Genre":"Action, Adventure","Director":"Tim Burton","Writer":"Bob
+        Kane, Sam Hamm, Warren Skaaren","Actors":"Michael Keaton, Jack Nicholson,
+        Kim Basinger","Plot":"The Dark Knight of Gotham City begins his war on crime
+        with his first major enemy being Jack Napier, a criminal who becomes the clownishly
+        homicidal Joker.","Language":"English, French, Spanish","Country":"United
+        States, United Kingdom","Awards":"Won 1 Oscar. 9 wins & 26 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg","Ratings":[{"Source":"Internet
+        Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"69/100"}],"Metascore":"69","imdbRating":"7.5","imdbVotes":"350,141","imdbID":"tt0096895","Type":"movie","DVD":"24
+        Jul 2014","BoxOffice":"$251,348,343","Production":"Warner Brothers, Guber-Peters
+        Company, PolyGram Filmed Entertainment","Website":"N/A","Response":"True"}'
+  recorded_at: Fri, 27 Aug 2021 12:54:07 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=20d3e972&t=Batman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 27 Aug 2021 12:54:08 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Fri, 27 Aug 2021 13:54:07 GMT
+      Last-Modified:
+      - Fri, 27 Aug 2021 12:54:07 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6855725a2fb01624-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Title":"Batman","Year":"1989","Rated":"PG-13","Released":"23 Jun
+        1989","Runtime":"126 min","Genre":"Action, Adventure","Director":"Tim Burton","Writer":"Bob
+        Kane, Sam Hamm, Warren Skaaren","Actors":"Michael Keaton, Jack Nicholson,
+        Kim Basinger","Plot":"The Dark Knight of Gotham City begins his war on crime
+        with his first major enemy being Jack Napier, a criminal who becomes the clownishly
+        homicidal Joker.","Language":"English, French, Spanish","Country":"United
+        States, United Kingdom","Awards":"Won 1 Oscar. 9 wins & 26 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg","Ratings":[{"Source":"Internet
+        Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"69/100"}],"Metascore":"69","imdbRating":"7.5","imdbVotes":"350,141","imdbID":"tt0096895","Type":"movie","DVD":"24
+        Jul 2014","BoxOffice":"$251,348,343","Production":"Warner Brothers, Guber-Peters
+        Company, PolyGram Filmed Entertainment","Website":"N/A","Response":"True"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=20d3e972&t=Batman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 27 Aug 2021 12:54:08 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Fri, 27 Aug 2021 13:54:08 GMT
+      Last-Modified:
+      - Fri, 27 Aug 2021 12:54:08 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6855725f3ba1503c-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Title":"Batman","Year":"1989","Rated":"PG-13","Released":"23 Jun
+        1989","Runtime":"126 min","Genre":"Action, Adventure","Director":"Tim Burton","Writer":"Bob
+        Kane, Sam Hamm, Warren Skaaren","Actors":"Michael Keaton, Jack Nicholson,
+        Kim Basinger","Plot":"The Dark Knight of Gotham City begins his war on crime
+        with his first major enemy being Jack Napier, a criminal who becomes the clownishly
+        homicidal Joker.","Language":"English, French, Spanish","Country":"United
+        States, United Kingdom","Awards":"Won 1 Oscar. 9 wins & 26 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg","Ratings":[{"Source":"Internet
+        Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"69/100"}],"Metascore":"69","imdbRating":"7.5","imdbVotes":"350,141","imdbID":"tt0096895","Type":"movie","DVD":"24
+        Jul 2014","BoxOffice":"$251,348,343","Production":"Warner Brothers, Guber-Peters
+        Company, PolyGram Filmed Entertainment","Website":"N/A","Response":"True"}'
+  recorded_at: Fri, 27 Aug 2021 12:54:08 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=20d3e972&t=Batman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 27 Aug 2021 12:54:52 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3556
+      Expires:
+      - Fri, 27 Aug 2021 13:54:08 GMT
+      Last-Modified:
+      - Fri, 27 Aug 2021 12:54:08 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 685573705d275049-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Title":"Batman","Year":"1989","Rated":"PG-13","Released":"23 Jun
+        1989","Runtime":"126 min","Genre":"Action, Adventure","Director":"Tim Burton","Writer":"Bob
+        Kane, Sam Hamm, Warren Skaaren","Actors":"Michael Keaton, Jack Nicholson,
+        Kim Basinger","Plot":"The Dark Knight of Gotham City begins his war on crime
+        with his first major enemy being Jack Napier, a criminal who becomes the clownishly
+        homicidal Joker.","Language":"English, French, Spanish","Country":"United
+        States, United Kingdom","Awards":"Won 1 Oscar. 9 wins & 26 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg","Ratings":[{"Source":"Internet
+        Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"69/100"}],"Metascore":"69","imdbRating":"7.5","imdbVotes":"350,141","imdbID":"tt0096895","Type":"movie","DVD":"24
+        Jul 2014","BoxOffice":"$251,348,343","Production":"Warner Brothers, Guber-Peters
+        Company, PolyGram Filmed Entertainment","Website":"N/A","Response":"True"}'
+  recorded_at: Fri, 27 Aug 2021 12:54:52 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=20d3e972&t=Batman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 27 Aug 2021 12:54:53 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=2785
+      Expires:
+      - Fri, 27 Aug 2021 13:41:18 GMT
+      Last-Modified:
+      - Fri, 27 Aug 2021 12:41:18 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 68557373aa2df2c8-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Title":"Batman","Year":"1989","Rated":"PG-13","Released":"23 Jun
+        1989","Runtime":"126 min","Genre":"Action, Adventure","Director":"Tim Burton","Writer":"Bob
+        Kane, Sam Hamm, Warren Skaaren","Actors":"Michael Keaton, Jack Nicholson,
+        Kim Basinger","Plot":"The Dark Knight of Gotham City begins his war on crime
+        with his first major enemy being Jack Napier, a criminal who becomes the clownishly
+        homicidal Joker.","Language":"English, French, Spanish","Country":"United
+        States, United Kingdom","Awards":"Won 1 Oscar. 9 wins & 26 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg","Ratings":[{"Source":"Internet
+        Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"69/100"}],"Metascore":"69","imdbRating":"7.5","imdbVotes":"350,141","imdbID":"tt0096895","Type":"movie","DVD":"24
+        Jul 2014","BoxOffice":"$251,348,343","Production":"Warner Brothers, Guber-Peters
+        Company, PolyGram Filmed Entertainment","Website":"N/A","Response":"True"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=20d3e972&t=Batman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 27 Aug 2021 12:54:53 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3554
+      Expires:
+      - Fri, 27 Aug 2021 13:54:08 GMT
+      Last-Modified:
+      - Fri, 27 Aug 2021 12:54:08 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 68557378eadf004c-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Title":"Batman","Year":"1989","Rated":"PG-13","Released":"23 Jun
+        1989","Runtime":"126 min","Genre":"Action, Adventure","Director":"Tim Burton","Writer":"Bob
+        Kane, Sam Hamm, Warren Skaaren","Actors":"Michael Keaton, Jack Nicholson,
+        Kim Basinger","Plot":"The Dark Knight of Gotham City begins his war on crime
+        with his first major enemy being Jack Napier, a criminal who becomes the clownishly
+        homicidal Joker.","Language":"English, French, Spanish","Country":"United
+        States, United Kingdom","Awards":"Won 1 Oscar. 9 wins & 26 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg","Ratings":[{"Source":"Internet
+        Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"69/100"}],"Metascore":"69","imdbRating":"7.5","imdbVotes":"350,141","imdbID":"tt0096895","Type":"movie","DVD":"24
+        Jul 2014","BoxOffice":"$251,348,343","Production":"Warner Brothers, Guber-Peters
+        Company, PolyGram Filmed Entertainment","Website":"N/A","Response":"True"}'
+  recorded_at: Fri, 27 Aug 2021 12:54:53 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=20d3e972&t=Batman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 27 Aug 2021 12:57:13 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=2645
+      Expires:
+      - Fri, 27 Aug 2021 13:41:18 GMT
+      Last-Modified:
+      - Fri, 27 Aug 2021 12:41:18 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 685576e0b95c001b-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Title":"Batman","Year":"1989","Rated":"PG-13","Released":"23 Jun
+        1989","Runtime":"126 min","Genre":"Action, Adventure","Director":"Tim Burton","Writer":"Bob
+        Kane, Sam Hamm, Warren Skaaren","Actors":"Michael Keaton, Jack Nicholson,
+        Kim Basinger","Plot":"The Dark Knight of Gotham City begins his war on crime
+        with his first major enemy being Jack Napier, a criminal who becomes the clownishly
+        homicidal Joker.","Language":"English, French, Spanish","Country":"United
+        States, United Kingdom","Awards":"Won 1 Oscar. 9 wins & 26 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg","Ratings":[{"Source":"Internet
+        Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"69/100"}],"Metascore":"69","imdbRating":"7.5","imdbVotes":"350,141","imdbID":"tt0096895","Type":"movie","DVD":"24
+        Jul 2014","BoxOffice":"$251,348,343","Production":"Warner Brothers, Guber-Peters
+        Company, PolyGram Filmed Entertainment","Website":"N/A","Response":"True"}'
+  recorded_at: Fri, 27 Aug 2021 12:57:13 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=20d3e972&t=Batman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 27 Aug 2021 12:57:13 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3414
+      Expires:
+      - Fri, 27 Aug 2021 13:54:08 GMT
+      Last-Modified:
+      - Fri, 27 Aug 2021 12:54:08 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 685576e41cbc162a-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Title":"Batman","Year":"1989","Rated":"PG-13","Released":"23 Jun
+        1989","Runtime":"126 min","Genre":"Action, Adventure","Director":"Tim Burton","Writer":"Bob
+        Kane, Sam Hamm, Warren Skaaren","Actors":"Michael Keaton, Jack Nicholson,
+        Kim Basinger","Plot":"The Dark Knight of Gotham City begins his war on crime
+        with his first major enemy being Jack Napier, a criminal who becomes the clownishly
+        homicidal Joker.","Language":"English, French, Spanish","Country":"United
+        States, United Kingdom","Awards":"Won 1 Oscar. 9 wins & 26 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg","Ratings":[{"Source":"Internet
+        Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"69/100"}],"Metascore":"69","imdbRating":"7.5","imdbVotes":"350,141","imdbID":"tt0096895","Type":"movie","DVD":"24
+        Jul 2014","BoxOffice":"$251,348,343","Production":"Warner Brothers, Guber-Peters
+        Company, PolyGram Filmed Entertainment","Website":"N/A","Response":"True"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=20d3e972&t=Batman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 27 Aug 2021 12:57:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=2643
+      Expires:
+      - Fri, 27 Aug 2021 13:41:18 GMT
+      Last-Modified:
+      - Fri, 27 Aug 2021 12:41:18 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 685576e938f30017-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Title":"Batman","Year":"1989","Rated":"PG-13","Released":"23 Jun
+        1989","Runtime":"126 min","Genre":"Action, Adventure","Director":"Tim Burton","Writer":"Bob
+        Kane, Sam Hamm, Warren Skaaren","Actors":"Michael Keaton, Jack Nicholson,
+        Kim Basinger","Plot":"The Dark Knight of Gotham City begins his war on crime
+        with his first major enemy being Jack Napier, a criminal who becomes the clownishly
+        homicidal Joker.","Language":"English, French, Spanish","Country":"United
+        States, United Kingdom","Awards":"Won 1 Oscar. 9 wins & 26 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg","Ratings":[{"Source":"Internet
+        Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"69/100"}],"Metascore":"69","imdbRating":"7.5","imdbVotes":"350,141","imdbID":"tt0096895","Type":"movie","DVD":"24
+        Jul 2014","BoxOffice":"$251,348,343","Production":"Warner Brothers, Guber-Peters
+        Company, PolyGram Filmed Entertainment","Website":"N/A","Response":"True"}'
+  recorded_at: Fri, 27 Aug 2021 12:57:14 GMT
 recorded_with: VCR 6.0.0
