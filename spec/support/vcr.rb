@@ -5,6 +5,6 @@ VCR.configure do |config|
   config.hook_into :webmock
   config.ignore_localhost = true
   config.filter_sensitive_data('apikey') do
-    Rails.application.credentials.omdb[:api_key]
+    1234
   end
 end
