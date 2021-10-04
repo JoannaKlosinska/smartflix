@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_08_13_133344) do
+ActiveRecord::Schema.define(version: 2021_10_01_104856) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -43,6 +43,7 @@ ActiveRecord::Schema.define(version: 2021_08_13_133344) do
     t.string "production"
     t.string "website"
     t.string "response"
+    t.string "total_seasons"
   end
 
 end

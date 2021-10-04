@@ -20,11 +20,11 @@ RSpec.describe OmdbapiAdapter do
     end
 
     context 'when title is invalid' do
-      let(:title) { 90081 }
+      let(:title) { 90_081 }
 
       it 'raise an error' do
         VCR.use_cassette('omdbapi_with_invalid_title', record: :new_episodes) do
-          expect{ subject }.to raise_error(Errors::MovieNotFoundError)
+          expect { subject }.to raise_error(Errors::MovieNotFoundError)
           expect(Errors::MovieNotFoundError.new(title).message).to eq('90081 not found! 12:00, 03/08/2020')
         end
       end
