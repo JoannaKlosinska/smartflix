@@ -252,7 +252,7 @@ http_interactions:
   recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
 - request:
     method: get
-    uri: http://omdbapi.com/?apikey=20d3e972&t=90081
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
     body:
       encoding: US-ASCII
       string: ''
@@ -302,7 +302,7 @@ http_interactions:
   recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
 - request:
     method: get
-    uri: http://omdbapi.com/?apikey=20d3e972&t=90081
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
     body:
       encoding: US-ASCII
       string: ''
@@ -352,7 +352,7 @@ http_interactions:
   recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
 - request:
     method: get
-    uri: http://omdbapi.com/?apikey=20d3e972&t=90081
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
     body:
       encoding: US-ASCII
       string: ''
@@ -402,7 +402,7 @@ http_interactions:
   recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
 - request:
     method: get
-    uri: http://omdbapi.com/?apikey=20d3e972&t=90081
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
     body:
       encoding: US-ASCII
       string: ''
@@ -452,7 +452,7 @@ http_interactions:
   recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
 - request:
     method: get
-    uri: http://omdbapi.com/?apikey=20d3e972&t=90081
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
     body:
       encoding: US-ASCII
       string: ''
@@ -502,7 +502,7 @@ http_interactions:
   recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
 - request:
     method: get
-    uri: http://omdbapi.com/?apikey=20d3e972&t=90081
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
     body:
       encoding: US-ASCII
       string: ''
@@ -552,7 +552,7 @@ http_interactions:
   recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
 - request:
     method: get
-    uri: http://omdbapi.com/?apikey=20d3e972&t=90081
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
     body:
       encoding: US-ASCII
       string: ''
@@ -602,7 +602,7 @@ http_interactions:
   recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
 - request:
     method: get
-    uri: http://omdbapi.com/?apikey=20d3e972&t=90081
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
     body:
       encoding: US-ASCII
       string: ''
@@ -652,7 +652,7 @@ http_interactions:
   recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
 - request:
     method: get
-    uri: http://omdbapi.com/?apikey=20d3e972&t=90081
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
     body:
       encoding: US-ASCII
       string: ''
@@ -702,7 +702,7 @@ http_interactions:
   recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
 - request:
     method: get
-    uri: http://omdbapi.com/?apikey=20d3e972&t=90081
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
     body:
       encoding: US-ASCII
       string: ''
@@ -752,7 +752,7 @@ http_interactions:
   recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
 - request:
     method: get
-    uri: http://omdbapi.com/?apikey=20d3e972&t=90081
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
     body:
       encoding: US-ASCII
       string: ''
@@ -802,7 +802,7 @@ http_interactions:
   recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
 - request:
     method: get
-    uri: http://omdbapi.com/?apikey=20d3e972&t=90081
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
     body:
       encoding: US-ASCII
       string: ''
@@ -852,7 +852,7 @@ http_interactions:
   recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
 - request:
     method: get
-    uri: http://omdbapi.com/?apikey=20d3e972&t=90081
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
     body:
       encoding: US-ASCII
       string: ''
@@ -902,7 +902,7 @@ http_interactions:
   recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
 - request:
     method: get
-    uri: http://omdbapi.com/?apikey=20d3e972&t=90081
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
     body:
       encoding: US-ASCII
       string: ''
@@ -952,7 +952,7 @@ http_interactions:
   recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
 - request:
     method: get
-    uri: http://omdbapi.com/?apikey=20d3e972&t=90081
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
     body:
       encoding: US-ASCII
       string: ''
@@ -1002,7 +1002,7 @@ http_interactions:
   recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
 - request:
     method: get
-    uri: http://omdbapi.com/?apikey=20d3e972&t=90081
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
     body:
       encoding: US-ASCII
       string: ''
@@ -1052,7 +1052,7 @@ http_interactions:
   recorded_at: Fri, 10 Sep 2021 08:23:32 GMT
 - request:
     method: get
-    uri: http://omdbapi.com/?apikey=20d3e972&t=90081
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
     body:
       encoding: US-ASCII
       string: ''
@@ -1102,7 +1102,7 @@ http_interactions:
   recorded_at: Fri, 10 Sep 2021 08:24:07 GMT
 - request:
     method: get
-    uri: http://omdbapi.com/?apikey=20d3e972&t=90081
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
     body:
       encoding: US-ASCII
       string: ''
@@ -1152,7 +1152,7 @@ http_interactions:
   recorded_at: Fri, 10 Sep 2021 08:29:12 GMT
 - request:
     method: get
-    uri: http://omdbapi.com/?apikey=20d3e972&t=90081
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
     body:
       encoding: US-ASCII
       string: ''
@@ -1202,7 +1202,7 @@ http_interactions:
   recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
 - request:
     method: get
-    uri: http://omdbapi.com/?apikey=20d3e972&t=90081
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
     body:
       encoding: US-ASCII
       string: ''
@@ -1246,6 +1246,956 @@ http_interactions:
       - cloudflare
       Cf-Ray:
       - 68c756739fcd0017-WAW
+    body:
+      encoding: UTF-8
+      string: '{"Response":"False","Error":"Movie not found!"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 14 Oct 2021 07:10:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '47'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Thu, 14 Oct 2021 08:10:56 GMT
+      Last-Modified:
+      - Thu, 14 Oct 2021 07:10:56 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 69defda4ef4d003c-WAW
+    body:
+      encoding: UTF-8
+      string: '{"Response":"False","Error":"Movie not found!"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 14 Oct 2021 07:10:58 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '47'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3598
+      Expires:
+      - Thu, 14 Oct 2021 08:10:56 GMT
+      Last-Modified:
+      - Thu, 14 Oct 2021 07:10:56 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 69defdab1df40046-WAW
+    body:
+      encoding: UTF-8
+      string: '{"Response":"False","Error":"Movie not found!"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 14 Oct 2021 12:18:49 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '47'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Thu, 14 Oct 2021 13:18:49 GMT
+      Last-Modified:
+      - Thu, 14 Oct 2021 12:18:49 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 69e0c0a2cc0c5012-WAW
+    body:
+      encoding: UTF-8
+      string: '{"Response":"False","Error":"Movie not found!"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 14 Oct 2021 12:18:50 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '47'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Thu, 14 Oct 2021 13:18:50 GMT
+      Last-Modified:
+      - Thu, 14 Oct 2021 12:18:50 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 69e0c0a89c221630-WAW
+    body:
+      encoding: UTF-8
+      string: '{"Response":"False","Error":"Movie not found!"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 14 Oct 2021 12:30:00 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '47'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=2930
+      Expires:
+      - Thu, 14 Oct 2021 13:18:50 GMT
+      Last-Modified:
+      - Thu, 14 Oct 2021 12:18:50 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 69e0d100f82ef290-WAW
+    body:
+      encoding: UTF-8
+      string: '{"Response":"False","Error":"Movie not found!"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 14 Oct 2021 12:31:55 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '47'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=2813
+      Expires:
+      - Thu, 14 Oct 2021 13:18:49 GMT
+      Last-Modified:
+      - Thu, 14 Oct 2021 12:18:49 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 69e0d3d3dd9c003c-WAW
+    body:
+      encoding: UTF-8
+      string: '{"Response":"False","Error":"Movie not found!"}'
+  recorded_at: Thu, 14 Oct 2021 12:31:55 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 14 Oct 2021 12:36:09 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '47'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Thu, 14 Oct 2021 13:36:09 GMT
+      Last-Modified:
+      - Thu, 14 Oct 2021 12:36:09 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 69e0da066d1ef2dc-WAW
+    body:
+      encoding: UTF-8
+      string: '{"Response":"False","Error":"Movie not found!"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 14 Oct 2021 12:36:10 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '47'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3599
+      Expires:
+      - Thu, 14 Oct 2021 13:36:09 GMT
+      Last-Modified:
+      - Thu, 14 Oct 2021 12:36:09 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 69e0da0c6c465025-WAW
+    body:
+      encoding: UTF-8
+      string: '{"Response":"False","Error":"Movie not found!"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 14 Oct 2021 12:42:39 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '47'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=2171
+      Expires:
+      - Thu, 14 Oct 2021 13:18:50 GMT
+      Last-Modified:
+      - Thu, 14 Oct 2021 12:18:50 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 69e0e38b8f62f2d8-WAW
+    body:
+      encoding: UTF-8
+      string: '{"Response":"False","Error":"Movie not found!"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 14 Oct 2021 12:52:43 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '47'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Thu, 14 Oct 2021 13:52:43 GMT
+      Last-Modified:
+      - Thu, 14 Oct 2021 12:52:43 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 69e0f24a0b56f2d8-WAW
+    body:
+      encoding: UTF-8
+      string: '{"Response":"False","Error":"Movie not found!"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 15 Oct 2021 11:04:25 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '47'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3157
+      Expires:
+      - Fri, 15 Oct 2021 11:57:02 GMT
+      Last-Modified:
+      - Fri, 15 Oct 2021 10:57:02 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 69e8910588a6f2d8-WAW
+    body:
+      encoding: UTF-8
+      string: '{"Response":"False","Error":"Movie not found!"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 15 Oct 2021 11:05:01 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '47'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3265
+      Expires:
+      - Fri, 15 Oct 2021 11:59:26 GMT
+      Last-Modified:
+      - Fri, 15 Oct 2021 10:59:26 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 69e891e56b3cffd0-WAW
+    body:
+      encoding: UTF-8
+      string: '{"Response":"False","Error":"Movie not found!"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 15 Oct 2021 11:22:26 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '47'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=1853
+      Expires:
+      - Fri, 15 Oct 2021 11:53:19 GMT
+      Last-Modified:
+      - Fri, 15 Oct 2021 10:53:19 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 69e8ab6a5da40028-WAW
+    body:
+      encoding: UTF-8
+      string: '{"Response":"False","Error":"Movie not found!"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 15 Oct 2021 11:22:27 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '47'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=2218
+      Expires:
+      - Fri, 15 Oct 2021 11:59:26 GMT
+      Last-Modified:
+      - Fri, 15 Oct 2021 10:59:26 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 69e8ab713d31f298-WAW
+    body:
+      encoding: UTF-8
+      string: '{"Response":"False","Error":"Movie not found!"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 15 Oct 2021 11:32:53 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '47'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=1592
+      Expires:
+      - Fri, 15 Oct 2021 11:59:26 GMT
+      Last-Modified:
+      - Fri, 15 Oct 2021 10:59:26 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 69e8bab9a82cf2d8-WAW
+    body:
+      encoding: UTF-8
+      string: '{"Response":"False","Error":"Movie not found!"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 15 Oct 2021 11:32:54 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '47'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=1224
+      Expires:
+      - Fri, 15 Oct 2021 11:53:19 GMT
+      Last-Modified:
+      - Fri, 15 Oct 2021 10:53:19 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 69e8bac09ffe006e-WAW
+    body:
+      encoding: UTF-8
+      string: '{"Response":"False","Error":"Movie not found!"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 15 Oct 2021 11:44:51 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '47'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=508
+      Expires:
+      - Fri, 15 Oct 2021 11:53:19 GMT
+      Last-Modified:
+      - Fri, 15 Oct 2021 10:53:19 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 69e8cc426a985012-WAW
+    body:
+      encoding: UTF-8
+      string: '{"Response":"False","Error":"Movie not found!"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 15 Oct 2021 12:34:34 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '47'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Fri, 15 Oct 2021 13:34:34 GMT
+      Last-Modified:
+      - Fri, 15 Oct 2021 12:34:34 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 69e915125833503c-WAW
+    body:
+      encoding: UTF-8
+      string: '{"Response":"False","Error":"Movie not found!"}'
+  recorded_at: Mon, 03 Aug 2020 10:00:00 GMT
+- request:
+    method: get
+    uri: http://omdbapi.com/?apikey=apikey&t=90081
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 15 Oct 2021 12:34:35 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '47'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Fri, 15 Oct 2021 13:34:35 GMT
+      Last-Modified:
+      - Fri, 15 Oct 2021 12:34:35 GMT
+      Vary:
+      - "*"
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 69e9151939920017-WAW
     body:
       encoding: UTF-8
       string: '{"Response":"False","Error":"Movie not found!"}'
