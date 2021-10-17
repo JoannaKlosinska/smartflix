@@ -4,6 +4,6 @@
   - default
   - movies
 :schedule:
-  update_movies:
+  update_movie:
     cron: '0 7 * * * *'
     class: UpdateMovieWorker

@@ -18,6 +18,7 @@ gem 'rubocop', require: false
 gem 'rubocop-rails'
 gem 'sass-rails', '>= 6'
 gem 'sidekiq'
+gem 'sidekiq-scheduler', '~> 3.1'
 gem 'turbolinks', '~> 5'
 gem 'webpacker', '~> 5.0'
 
