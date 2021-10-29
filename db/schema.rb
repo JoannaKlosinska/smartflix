@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_01_104856) do
+ActiveRecord::Schema.define(version: 2021_10_29_072754) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -44,6 +44,7 @@ ActiveRecord::Schema.define(version: 2021_10_01_104856) do
     t.string "website"
     t.string "response"
     t.string "total_seasons"
+    t.index ["title"], name: "index_movies_on_title"
   end
 
 end
