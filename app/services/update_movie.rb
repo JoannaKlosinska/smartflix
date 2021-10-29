@@ -18,10 +18,10 @@ class UpdateMovie
 
   attr_reader :movie
 
+  EXCLUDED_ATTRIBUTES = %w[id updated_at created_at].freeze
+
   def movie_up_to_date?
-    most_recent_movie.attributes.except('id', 'updated_at', 
-                                        'created_at') == movie.attributes.except('id', 'updated_at', 
-                                                                                 'created_at')
+    most_recent_movie.attributes.except(*EXCLUDED_ATTRIBUTES) == movie.attributes.except(*EXCLUDED_ATTRIBUTES)
   end
 
   def most_recent_movie

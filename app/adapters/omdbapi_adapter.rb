@@ -16,10 +16,12 @@ class OmdbapiAdapter
 
     private
 
+    EXCLUDED_ATTRIBUTES = :type
+
     def movie_attributes(response)
       response.transform_keys do |key|
         key.underscore.to_sym
-      end.except(:type)
+      end.except(EXCLUDED_ATTRIBUTES)
     end
 
   end
