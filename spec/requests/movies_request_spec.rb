@@ -3,9 +3,7 @@
 require 'rails_helper'
 RSpec.describe MoviesController, type: :request do
   describe 'GET #show' do
-    before do
-      create(:movie, title: 'Batman', year: 1989)
-    end
+    before { create(:movie) }
 
     context 'when movie exists' do
       before { get('/movies/Batman') }
@@ -29,6 +27,7 @@ RSpec.describe MoviesController, type: :request do
 
       it 'returns a status code 404 and runs a specific worker' do
         expect(response).to have_http_status(:not_found)
+        expect(response.body).to eq 'not found, try again later'
       end
     end
   end
