@@ -14,4 +14,8 @@ class MoviesController < ApplicationController
     end
   end
 
+  def index
+    @movies = Movie.all.paginate(page: params[:page])
+  end
+
 end
