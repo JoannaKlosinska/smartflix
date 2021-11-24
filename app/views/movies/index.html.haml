@@ -1,0 +1,11 @@
+%table.table
+  %thead
+    %tr
+      %th Title
+      %th Poster
+  %tbody
+    - @movies.each do |movie|
+      %tr
+        %td= movie.title
+        %td= image_tag movie.poster, size: "50x50"
+= will_paginate
