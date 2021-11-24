@@ -6,6 +6,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.0.1'
 
 gem 'bootsnap', '>= 1.4.4', require: false
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+gem 'bootstrap-will_paginate', '~> 1.0'
 gem 'factory_bot', '~> 6.2'
 gem 'faker'
 gem 'httparty', '~> 0.18.1'
@@ -21,6 +23,7 @@ gem 'sidekiq'
 gem 'sidekiq-scheduler', '~> 3.1'
 gem 'turbolinks', '~> 5'
 gem 'webpacker', '~> 5.0'
+gem 'will_paginate', '~> 3.3', '>= 3.3.1'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
