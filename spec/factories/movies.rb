@@ -2,7 +2,6 @@
 
 FactoryBot.define do
   factory :movie do
-    id { 1 }
     title { 'Batman' }
     year { 1989 }
     rated { 'PG-13' }
