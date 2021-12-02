@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="col-sm-8">
+    <h1><%= @movie.title %></h1>
+      <ul>
+        <li><b>Year:</b> <%= @movie.year %></li>
+        <li><b>Rated:</b> <%= @movie.rated %></li>
+        <li><b>Released:</b> <%= @movie.released %></li>
+        <li><b>Runtime:</b> <%= @movie.runtime %></li>
+        <li><b>Genre:</b> <%= @movie.genre %></li>
+        <li><b>Director:</b> <%= @movie.director %></li>
+        <li><b>Writer:</b> <%= @movie.writer %></li>
+        <li><b>Actors:</b> <%= @movie.actors %></li>
+        <li><b>Plot:</b> <%= @movie.plot %></li>
+        <li><b>Language:</b> <%= @movie.language %></li>
+        <li><b>Country:</b> <%= @movie.country %></li>
+        <li><b>Awards:</b> <%= @movie.awards %></li>
+        <li><b>Ratings:</b> <%= @movie.ratings %></li>
+        <li><b>Metascore:</b> <%= @movie.metascore %></li>
+        <li><b>IMDB Rating:</b> <%= @movie.imdb_rating %></li>
+        <li><b>IMDB Votes:</b> <%= @movie.imdb_votes %></li>
+      </ul>
+  </div>
+  <div class="col-sm-4"><%= image_tag @movie.poster %></div>
+</div>

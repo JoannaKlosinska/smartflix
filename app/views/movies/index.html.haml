@@ -1,11 +1,14 @@
-%table.table
-  %thead
-    %tr
-      %th Title
-      %th Poster
-  %tbody
-    - @movies.each do |movie|
+.table-responsive
+  %table.table.table-hover
+    %thead
       %tr
-        %td= movie.title
-        %td= image_tag movie.poster, size: "50x50"
-= will_paginate
+        %th{:style => "width: 40%"} Title
+        %th{:style => "width: 40%"} Poster
+        %th{:style => "width: 20%"}
+    %tbody
+      - @movies.each do |movie|
+        %tr
+          %td= movie.title
+          %td= image_tag movie.poster, size: "50x50"
+          %td= button_to "View More", movie_path(movie.title), method: :get
+  = will_paginate

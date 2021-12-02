@@ -1,0 +1,53 @@
+.container
+  .col-sm-8
+    %h1= @movie.title
+    %ul
+      %li
+        %b Year:
+        = @movie.year
+      %li
+        %b Rated:
+        = @movie.rated
+      %li
+        %b Released:
+        = @movie.released
+      %li
+        %b Runtime:
+        = @movie.runtime
+      %li
+        %b Genre:
+        = @movie.genre
+      %li
+        %b Director:
+        = @movie.director
+      %li
+        %b Writer:
+        = @movie.writer
+      %li
+        %b Actors:
+        = @movie.actors
+      %li
+        %b Plot:
+        = @movie.plot
+      %li
+        %b Language:
+        = @movie.language
+      %li
+        %b Country:
+        = @movie.country
+      %li
+        %b Awards:
+        = @movie.awards
+      %li
+        %b Ratings:
+        = @movie.ratings
+      %li
+        %b Metascore:
+        = @movie.metascore
+      %li
+        %b IMDB Rating:
+        = @movie.imdb_rating
+      %li
+        %b IMDB Votes:
+        = @movie.imdb_votes
+  .col-sm-4= image_tag @movie.poster
