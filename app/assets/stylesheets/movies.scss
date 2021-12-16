@@ -2,10 +2,12 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+
 .table {
   text-align: center;
   table-layout: fixed;
   width: 300px;
+  font-family: 'Lato', sans-serif;
   thead {
     th {
         text-transform: uppercase;
@@ -30,5 +32,40 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
+  }
+}
+.navbar {
+  background-color: black;
+  padding: 10px;
+  .header, .list {
+    display: inline;
+  }
+  .header {
+    float: left;
+    a {
+      color: white;
+      font-size: 30px;
+      letter-spacing: 3px;
+      font-family: 'Lato', sans-serif;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    a:hover {
+      color: #ddd;
+      text-decoration: none;
+    }
+  }
+  .list {
+    float: right;
+    margin-top: 10px;                                        
+    a {
+      color: white;
+      letter-spacing: 3px;
+      font-size: 17px;
+    }
+    a:hover {
+      color: #ddd;
+      text-decoration: none;
+    }
   }
 }
