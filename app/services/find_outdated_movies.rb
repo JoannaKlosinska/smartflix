@@ -13,4 +13,5 @@ class FindOutdatedMovies
   private
 
   attr_reader :time
+
 end

@@ -14,7 +14,7 @@ RSpec.describe UpdateOneMovieWorker, type: :worker do
     end
 
     it 'runs update movie service' do
-      expect(UpdateMovie.new(movie)).to receive(:call)
+      expect(UpdateMovie.new(movie)).to receive(:call).and_return(movie)
 
       subject
     end

@@ -20,6 +20,7 @@ gem 'rest-client'
 gem 'rubocop', require: false
 gem 'rubocop-rails'
 gem 'sass-rails', '>= 6'
+gem 'scenic', '~> 1.5', '>= 1.5.4'
 gem 'sidekiq'
 gem 'sidekiq-scheduler', '~> 3.1'
 gem 'turbolinks', '~> 5'

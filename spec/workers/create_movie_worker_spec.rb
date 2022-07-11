@@ -8,11 +8,8 @@ RSpec.describe CreateMovieWorker, type: :worker do
 
     let(:title) { 'Batman' }
 
-    before do
-      allow(ImportMovie).to receive(:new).with(title)
-    end
-
     it 'runs import movie service' do
+      expect(ImportMovie).to receive(:new).with(title)
       expect(ImportMovie.new(title)).to receive(:call)
       subject
     end
