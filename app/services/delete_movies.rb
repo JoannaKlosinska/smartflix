@@ -13,4 +13,5 @@ class DeleteMovies
   private
 
   attr_reader :movies
+
 end
