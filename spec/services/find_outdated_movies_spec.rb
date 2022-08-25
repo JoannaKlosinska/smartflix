@@ -9,7 +9,7 @@ RSpec.describe FindOutdatedMovies do
     let(:datetime) { Time.zone.parse('2020-08-03 12:00:00') }
     let(:first_movie) { create(:movie, updated_at: datetime - 24.hours) }
     let(:second_movie) { create(:movie, updated_at: datetime - 48.hours) }
-    let(:third_movie) {create(:movie, updated_at: datetime - 48.hours - 1.second) }
+    let(:third_movie) { create(:movie, updated_at: datetime - 48.hours - 1.second) }
 
     before do
       travel_to(datetime)

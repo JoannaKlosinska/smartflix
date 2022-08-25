@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 redis_host = ENV['REDIS_HOST'] || 'localhost'
 
 Sidekiq.configure_server do |config|

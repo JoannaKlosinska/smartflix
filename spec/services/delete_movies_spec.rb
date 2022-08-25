@@ -17,7 +17,7 @@ RSpec.describe DeleteMovies do
     end
 
     it 'deletes movies from specific list' do
-      expect{ subject }.to change(Movie, :count).from(3).to(1)
+      expect { subject }.to change(Movie, :count).from(3).to(1)
     end
   end
 end
