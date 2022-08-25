@@ -9,8 +9,9 @@ RSpec.describe UpdateAllMoviesWorker, type: :worker do
     let(:movie) { build(:movie) }
 
     it 'runs update one movie worker' do
-      allow(Movie).to receive(:find_each).and_yield(movie)
+      expect(Movie).to receive(:find_each).and_yield(movie)
       expect(UpdateOneMovieWorker).to receive(:perform_async).with(movie.id)
+
       subject
     end
   end
